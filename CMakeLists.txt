@@ -110,7 +110,7 @@ else()
     set(PYTHON_EXECUTABLE ${Python3_EXECUTABLE} CACHE INTERNAL "The Python3 executable" FORCE)
 endif()
 
-project(box64 C ASM)
+project(spark-box64 C ASM)
 
 enable_testing()
 
