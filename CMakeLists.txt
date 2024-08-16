@@ -1026,7 +1026,8 @@ if(NOT _x86 AND NOT _x86_64)
 	endif()
    endif()
 endif()
-
+# 新增 spark-box64 快捷方式
+install(FILES ${CMAKE_SOURCE_DIR}/spark-box64 DESTINATION /usr/bin/)
 if(NOT TARGET uninstall)
     configure_file(
         "${CMAKE_CURRENT_SOURCE_DIR}/cmake_uninstall.cmake.in"
